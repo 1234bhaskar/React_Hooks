@@ -1,6 +1,6 @@
 import './App.css';
 import { useState,useEffect } from 'react';
-function App() {
+function App2() {
   var [state,setState]=useState(0);
    
   //in a useEffect a callback function is Passed whenEver the value of 'state' is changed the use Effect will execute.
@@ -15,5 +15,9 @@ function App() {
     </div>
   );
 }
-export default App;
- 
+export default App2;
+
+
+/**
+ * Every time your component renders, React will update the screen and then run the code inside useEffect. In other words, useEffect “delays” a piece of code from running until that render is reflected on the screen.
+ */
